@@ -1,5 +1,5 @@
 FROM nginx:alpine
-RUN mkdir /usr
+#RUN mkdir /usr
 COPY . /usr/share/nginx/html
 WORKDIR /usr
 RUN npm install
